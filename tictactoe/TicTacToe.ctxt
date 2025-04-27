@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TicTacToe
+comment0.text=\r\n\ A\ class\ modelling\ a\ tic-tac-toe\ (noughts\ and\ crosses,\ Xs\ and\ Os)\ game.\r\n\ \r\n\ @author\ Lynn\ Marshall\r\n\ @version\ November\ 8,\ 2012\r\n\ \r\n\ @author\ Marwan\ Alakhras\r\n\ @version\ March\ 26,\ 2025\r\n\ \r\n
+comment1.params=
+comment1.target=TicTacToe()
+comment1.text=\ \r\n\ Constructs\ a\ new\ Tic-Tac-Toe\ GUI.\r\n
+comment2.params=
+comment2.target=void\ clearBoard()
+comment2.text=\r\n\ Sets\ everything\ up\ for\ a\ new\ game.\ \ Marks\ all\ squares\ in\ the\ Tic\ Tac\ Toe\ board\ as\ empty,\r\n\ and\ indicates\ no\ winner\ yet,\ 9\ free\ squares\ and\ the\ current\ player\ is\ player\ X.\ Updates\r\n\ the\ game\ status\ display\ for\ a\ new\ game.\ Does\ not\ reset\ the\ score.\r\n
+comment3.params=row\ col
+comment3.target=boolean\ haveWinner(int,\ int)
+comment3.text=\r\n\ Returns\ true\ if\ filling\ the\ given\ square\ gives\ us\ a\ winner,\ and\ false\r\n\ otherwise.\r\n\r\n\ @param\ \ row\ of\ square\ just\ set\r\n\ @param\ \ col\ of\ square\ just\ set\r\n\ \r\n\ @return\ true\ if\ we\ have\ a\ winner,\ false\ otherwise\r\n
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.text=\r\n\ This\ action\ listener\ is\ called\ when\ the\ user\ clicks\ on\ any\ of\ the\ GUI's\ buttons.\r\n\r\n\ @param\ e\ the\ event\ to\ be\ processed\r\n
+comment5.params=
+comment5.target=void\ updateScoreBoard()
+comment5.text=\r\n\ updates\ the\ scoreboard\ with\ the\ current\ values.\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ Creates\ an\ instance\ of\ the\ TicTacToe\ class,\ which\ sets\ up\ the\ game\ and\ the\ GUI.\r\n\ @param\ args\ The\ command\ line\ arguments\r\n
+numComments=7
